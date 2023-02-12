@@ -102,10 +102,10 @@ header span {
 }
 
 
-.team{
+.team, .do{
     padding:5vw 5vw;
 }
-.team h1{
+.team h1, .do h1{
     font-size: 3vw;
     font-weight: 600;
     padding-bottom: 3vw;
@@ -113,7 +113,7 @@ header span {
 .team_block img{
     width: 15vw;
 }
-.team .team_block{
+ .team_block, .do_block{
     background-color: white;
     width: 21vw;
     text-align: center;
@@ -136,7 +136,7 @@ header span {
     width: 100% ;
     padding: 1vw 0 2.5vw 0 ;
 }
-.team_main_blocks{
+.team_main_blocks, .do_main_block{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -153,4 +153,48 @@ header span {
 .link_people a img{
     width: 3vw;
     margin-left: 3vw;
+}
+
+.do h1{
+    text-align: center;
+    color: #FF2E63;
+    font-weight: 700;
+}
+.do_block{
+    text-align: left;
+    padding:2vw 1vw;
+}
+.do_block h3{
+    font-size: 2.2vw;
+    text-align: center;
+    padding-bottom: 2vw;
+    font-weight: 600;
+}
+.do_block p{
+    font-size: 1.3vw;
+    padding-bottom: 3vw;
+}
+.do_block button{
+    border: none;
+    background-color: #FF2E63;
+    color: white;
+    font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15vw;
+    padding: .8vw 1.5vw;
+    border-radius: .8vw;
+}
+.do_block h4{
+    font-weight: 600;
+    padding-top: 2vw;
+    font-size: 1.7vw;
+}
+
+.do_text{
+    display: flex;
+    height: 18vw;
+    flex-direction: column;
+    justify-content: flex-end !important;
 }
