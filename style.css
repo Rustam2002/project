@@ -60,7 +60,7 @@ header h1 {
     line-height: 5vw;
 }
 
-header span {
+ span {
     color: #FF2E63;
 }
 
@@ -102,7 +102,7 @@ header span {
 }
 
 
-.team, .do{
+.team, .do, .preim{
     padding:5vw 5vw;
 }
 .team h1, .do h1{
@@ -197,4 +197,67 @@ header span {
     height: 18vw;
     flex-direction: column;
     justify-content: flex-end !important;
+}
+.do img{
+    width: 3vw;
+}
+
+
+
+.preim h1{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 600;
+    padding-bottom: 5vw;
+}
+.preim h2{
+    color: #FF2E63;
+    font-size: 2vw;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding-bottom: 2vw;
+    height: 5vw;
+}
+.preim p{
+    font-size: 1.4vw;
+}
+.preim_block img{
+    width: 4vw;
+    padding-right: .5vw;
+}
+.preim_block{
+    width: 22vw;
+    padding: 1vw 1.5vw;
+}
+.preim_main_block{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.centr_arrow{
+    text-align: center;
+    height: 14vw;
+    padding-top: 3vw;
+    animation: translate 4s infinite linear ;
+}
+@keyframes translate{
+    0%{ transform: translate(0, 20%);}
+    50%{ transform: translate(0, 0);}
+    100%{transform: translate(0,20%);}
+}
+.down_arrow{
+    width: 2.4vw;
+    margin: auto;
+}
+.preim_text_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.preim_text_main h1{
+    font-weight: 600;
+    font-size: 3vw;
+    text-align: left;
+    width: 52vw;
 }
