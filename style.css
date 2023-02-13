@@ -102,7 +102,7 @@ header h1 {
 }
 
 
-.team, .do, .preim{
+section {
     padding:5vw 5vw;
 }
 .team h1, .do h1{
@@ -260,4 +260,63 @@ header h1 {
     font-size: 3vw;
     text-align: left;
     width: 52vw;
+}
+.preim_text_main img{
+    width: 28vw;
+}
+.steps h1{
+    font-weight: 600;
+    font-size: 3vw;
+    text-align: center;
+    padding-bottom: 7vw;
+}
+
+.steps_block{
+    width: 20vw;
+    padding-left: .4vw;
+}
+.steps_block div{
+    width: 100%;
+    height: 15vw;
+}
+.steps_block b{
+    font-size: 15vw;
+    color: #FF2E63;
+    font-weight: 600;
+}
+.steps_block img{
+    width: 9vw;
+}
+.steps_block h3{
+    font-size: 3.5vw;
+    font-weight: 600;
+    padding-bottom: 1vw;
+}
+.steps_block p{
+    width: 20vw;
+    font-size: 1.5vw;
+}
+.steps_main_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.steps_block:last-child p{
+    width: 21.5vw;
+}
+.steps_block:last-child {
+    width: 25vw;
+}
+
+.steps_main_block .arrow_b{
+    width: 5vw;
+}
+
+.big_a{
+    position: absolute;
+    right: -2vw;
+    top: 15vw;
+    width: 30vw;
 }
